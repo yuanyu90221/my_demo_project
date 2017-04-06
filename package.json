@@ -1,0 +1,32 @@
+{
+  "name": "my-demo-project",
+  "version": "1.0.0",
+  "description": "angularJS + mongodb portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "yuanyu90221",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "log4js": "^1.1.1",
+    "mongoose": "^4.9.3",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanyu90221/my_demo_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuanyu90221/my_demo_project/issues"
+  },
+  "homepage": "https://github.com/yuanyu90221/my_demo_project#readme"
+}
